@@ -1,3 +1,4 @@
+@font-face{font-family:myriad pro;font-style:normal;font-weight:400;src:local('Myriad Pro'),url(https://fonts.cdnfonts.com/s/492/MYRIADPRO-REGULAR.woff) format('woff')}@font-face{font-family:myriad pro;font-style:normal;font-weight:400;src:local('Myriad Pro'),url(https://fonts.cdnfonts.com/s/492/MYRIADPRO-COND.woff) format('woff')}@font-face{font-family:myriad pro;font-style:italic;font-weight:400;src:local('Myriad Pro'),url(https://fonts.cdnfonts.com/s/492/MYRIADPRO-CONDIT.woff) format('woff')}@font-face{font-family:myriad pro;font-style:normal;font-weight:300;src:local('Myriad Pro'),url(https://fonts.cdnfonts.com/s/492/MyriadPro-Light.woff) format('woff')}@font-face{font-family:myriad pro;font-style:normal;font-weight:600;src:local('Myriad Pro'),url(https://fonts.cdnfonts.com/s/492/MYRIADPRO-SEMIBOLD.woff) format('woff')}@font-face{font-family:myriad pro;font-style:italic;font-weight:600;src:local('Myriad Pro'),url(https://fonts.cdnfonts.com/s/492/MYRIADPRO-SEMIBOLDIT.woff) format('woff')}@font-face{font-family:myriad pro;font-style:normal;font-weight:700;src:local('Myriad Pro'),url(https://fonts.cdnfonts.com/s/492/MYRIADPRO-BOLDCOND.woff) format('woff')}@font-face{font-family:myriad pro;font-style:normal;font-weight:700;src:local('Myriad Pro'),url(https://fonts.cdnfonts.com/s/492/MYRIADPRO-BOLD.woff) format('woff')}@font-face{font-family:myriad pro;font-style:italic;font-weight:700;src:local('Myriad Pro'),url(https://fonts.cdnfonts.com/s/492/MYRIADPRO-BOLDIT.woff) format('woff')}@font-face{font-family:myriad pro;font-style:italic;font-weight:700;src:local('Myriad Pro'),url(https://fonts.cdnfonts.com/s/492/MYRIADPRO-BOLDCONDIT.woff) format('woff')}
 /* Common css start  */
 *{
     margin: 0;
@@ -105,18 +106,39 @@ a{
 .banner-text{
     text-align: right;
 }
+.
 .banner-text p{
     /* width: 460px; */
     padding: 0 0 0 369px;
+    color: white;
 }
 .banner-btn a{
-    border: 2px solid red;
-    padding: 10px 20px ;
-    background: red;
+    font-family: 'roboto';
+    margin: 20px;
+    border: 2px solid #fff;
+    padding: 10px 22px ;
     color: white;
+    background: transparent ;
     transition: all linear 0.5s;
 }
 .banner-btn a:hover{
-    background: transparent ;
+    background:#0872b9;
+}
+.banner-text h2{
+    font-family: 'Lato';
+    font-family:myriad pro;
+    color: white;
+    font-size: 30px;
+}
+.banner-text h1{
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 40px;
+    
+}
+.banner-text p{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    padding: 20px 0 32px 300px;
 }
 /* Navbar end  */

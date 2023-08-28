@@ -137,8 +137,9 @@ a{
     
 }
 .banner-text p{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Nunito Sans';
+    font-size: 18px;
     color: white;
-    padding: 20px 0 32px 300px;
+    padding: 20px 0 32px 400px;
 }
 /* Navbar end  */
